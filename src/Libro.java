@@ -57,10 +57,10 @@ public class Libro {
     public boolean prestar() {
         if (disponible) {
             disponible = false;
-            System.out.println("Libro prestado.");
+            System.out.println("El libro\"" + titulo + "\" fue prestado.");
             return true;
         } else {
-            System.out.println("El libro ya está prestado.");
+            System.out.println("El libro\"" + titulo + "\" ya esta prestado,");
             return false;
         }
     }
